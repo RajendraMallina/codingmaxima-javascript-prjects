@@ -1,0 +1,15 @@
+{
+  "name": "codingmaxima-javascript-prjects",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "seo:sync": "node scripts/add-seo.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
+  }
+}

@@ -1,0 +1,131 @@
+.api-stack {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
+}
+.api-results {
+  display: grid;
+  gap: 10px;
+}
+.api-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid #ececf5;
+  border-radius: 15px;
+  background: #fff;
+}
+.api-result h3 {
+  margin: 0 0 5px;
+  color: #30344d;
+  font-size: 0.9rem;
+}
+.api-result p,
+.api-note {
+  margin: 0;
+  color: #777e92;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+.api-flag {
+  width: 54px;
+  height: 36px;
+  object-fit: cover;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  flex: none;
+}
+.api-title {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+}
+.api-detail {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.api-detail div {
+  padding: 14px;
+  background: #fafaff;
+  border: 1px solid #eeedf8;
+  border-radius: 13px;
+}
+.api-detail span {
+  display: block;
+  color: #858b9d;
+  font-size: 0.69rem;
+}
+.api-detail strong {
+  display: block;
+  margin-top: 5px;
+  color: #373b55;
+  font-size: 0.8rem;
+  overflow-wrap: anywhere;
+}
+.api-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.api-source {
+  color: #5149d8;
+}
+.api-status {
+  margin: 0;
+  color: #777e92;
+  font-size: 0.76rem;
+  line-height: 1.6;
+}
+.api-section-title {
+  margin: 0 0 14px;
+  color: #282b43;
+  font-size: 1.05rem;
+}
+@media (max-width: 560px) {
+  .api-detail {
+    grid-template-columns: 1fr;
+  }
+  .api-result {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+.api-subtitle {
+  margin-top: 24px;
+}
+.lab-form + .api-results,
+.api-status + .api-results {
+  margin-top: 16px;
+}
+.api-note + .api-detail {
+  margin-top: 16px;
+}
+.api-cover {
+  width: 52px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 5px;
+  flex: none;
+  background: #f1f0ff;
+}
+.api-pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+  color: #777e92;
+  font-size: 0.75rem;
+}
+.api-avatar {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 18px;
+  background: #f1f0ff;
+  flex: none;
+}
